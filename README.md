@@ -9,3 +9,20 @@ Here you'll find my solutions to various machine learning and deep learning prob
 TensorTonic is a platform where you can implement core algorithms of Machine Learning from scratch.
 
 This repository contains my personal solutions to these problems, automatically synchronized from the platform.
+
+<!-- tensortonic:start -->
+# AMAN GAUTAM's TensorTonic Solutions
+
+Verified machine learning implementations completed on [TensorTonic](https://www.tensortonic.com).
+
+<p align="center">
+  <img src="https://www.tensortonic.com/api/badge/231220007.svg" alt="TensorTonic Verified Solutions" width="100%" />
+</p>
+
+| Problem | Description | Link |
+|---|---|---|
+| Implement Sigmoid in NumPy | Implement a vectorized sigmoid activation in NumPy for scalars, lists, vectors, and matrices, including large positive and negative inputs. | https://www.tensortonic.com/problems/sigmoid-numpy |
+| Warmup + Linear Decay LR Schedule | Compute a learning-rate schedule with linear warmup followed by linear decay across training steps. | https://www.tensortonic.com/problems/warmup-decay-lr |
+
+View my verified ML profile: [TensorTonic profile](https://www.tensortonic.com/profile/231220007)
+<!-- tensortonic:end -->
