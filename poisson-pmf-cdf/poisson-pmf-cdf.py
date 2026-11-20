@@ -1,18 +1,9 @@
 import math
 
-def poisson_pmf_cdf(lam: float, k: int) -> dict:
-    """
-    Returns a dictionary with pmf and cdf.
-    """
-    # Write code here
-    pmf=float(np.exp(-lam)*(lam**k))/math.factorial(k)
-
-    cdf=float(0)
-
-    for i in range(k+1):
-        cdf+=float((np.exp(-lam)*(lam**i))/math.factorial(i))
-
-    return {
-        "pmf":pmf,
-        "cdf":cdf
-    }
+def poisson_pmf_cdf(lam, k):
+    term = math.exp(-lam)
+    cdf = term
+    for i in range(1, k + 1):
+        term *= lam / i
+        cdf += term
+    return {"pmf": float(term), "cdf": float(cdf)}
